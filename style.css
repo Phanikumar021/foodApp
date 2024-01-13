@@ -47,10 +47,15 @@
   display: flex;
 }
 #card {
-  border: 1px solid rgba(73, 73, 73, 0.486);
+  border: 1px solid rgba(133, 130, 130, 0.31);
+  box-shadow: 4px 2px #acacac9c;
   margin: 4px;
   width: 20%;
   cursor: pointer;
+}
+#card:hover {
+  border: 1px solid rgba(30, 29, 29, 0.486);
+  box-shadow: 4px 5px #7978789c;
 }
 #card > img {
   display: block;

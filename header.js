@@ -1,3 +1,5 @@
+import { FaCartShopping } from "react-icons/fa6";
+
 const Header = () => {
   return (
     <div id="head">
@@ -11,6 +13,9 @@ const Header = () => {
         <li>Careers</li>
         <li>Contact</li>
         <li>Join us</li>
+        <li>
+          <FaCartShopping />
+        </li>
       </ul>
     </div>
   );
