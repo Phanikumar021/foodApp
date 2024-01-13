@@ -18,6 +18,13 @@ const Cardbody = () => {
       <Card />
       <Card />
       <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 };
@@ -27,8 +34,17 @@ const Card = () => {
     <div id="card">
       <img src={require("./utilities/food1.jpg")} alt="food" />
       <div id="data">
-        <h3>Punjabi Dhaba</h3>
-        <h5>north india, punjabi</h5>
+        <div id="Lone">
+          <h2>Punjabi Dhaba</h2>
+          <h4>4.6 ⭐</h4>
+        </div>
+        <div id="Ltwo">
+          <h4>north india, punjabi</h4>
+        </div>
+        <div id="Lthree">
+          <h5>shivam road, Amberpet</h5>
+          <h5>🕔 36 mins</h5>
+        </div>
       </div>
     </div>
   );
