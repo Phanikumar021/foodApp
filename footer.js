@@ -6,7 +6,7 @@ const Footer = () => {
           src={require("./utilities/5506162-photoaidcom-cropped.jpg")}
           alt="logo"
         />
-        <h1>FOODER</h1>
+        <h1>ZOMATO</h1>
       </div>
       <div id="Rtwo">
         <h2>ADDRESS</h2>
