@@ -1,3 +1,10 @@
+import {
+  RiInstagramFill,
+  RiFacebookBoxFill,
+  RiWhatsappFill,
+  RiMailAddFill,
+  RiPhoneFill,
+} from "react-icons/ri";
 const Footer = () => {
   return (
     <div id="foot">
@@ -11,9 +18,16 @@ const Footer = () => {
       <div id="Rtwo">
         <h2>ADDRESS</h2>
         <p>
-          Unit No. 201, 5th Floor, B-2-293/82/A/58/A, Road No.8, Pavani Equinox,
-          Jubilee Hills, Hyderabad, 500033
+          Unit No. 201, 5th Floor, B-2-293/82/A/58/A <br /> Road No.8, Pavani
+          Equinox <br /> Jubilee Hills, Hyderabad, 500033
         </p>
+        <div id="media">
+          <RiInstagramFill className="custom-icon" />
+          <RiFacebookBoxFill className="custom-icon" />
+          <RiWhatsappFill className="custom-icon" />
+          <RiMailAddFill className="custom-icon" />
+          <RiPhoneFill className="custom-icon" />
+        </div>
       </div>
       <div id="Rthree">
         <h2>NAVIGATION</h2>
