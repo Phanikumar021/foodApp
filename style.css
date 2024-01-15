@@ -72,13 +72,15 @@
 #card:hover {
   box-shadow: 7px 8px #7978789c;
 }
-#card > img {
+
+#imgcontainer > img {
   display: block;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  height: 45%;
 }
 #data {
   margin: 5px;
@@ -90,14 +92,17 @@
 #Lone > h2 {
   margin-top: 3%;
   margin-bottom: 3%;
+  width: 80%;
 }
 #Lone > h4 {
   margin-top: 3%;
   margin-bottom: 3%;
+  width: 18%;
 }
 #Ltwo > h4 {
   margin-top: 3%;
   margin-bottom: 3%;
+  font-weight: 500;
 }
 #Lthree {
   display: flex;
@@ -106,6 +111,12 @@
 #Lthree > h5 {
   margin-top: 3%;
   margin-bottom: 3%;
+  width: 25%;
+}
+#Lthree > h6 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 60%;
 }
 #foot {
   background-color: rgba(190, 187, 187, 0.521);
