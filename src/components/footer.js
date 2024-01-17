@@ -10,7 +10,7 @@ const Footer = () => {
     <div id="foot">
       <div id="Rone">
         <img
-          src={require("./utilities/5506162-photoaidcom-cropped.jpg")}
+          src={require("../../utilities/5506162-photoaidcom-cropped.jpg")}
           alt="logo"
         />
         <h1>ZOMATO</h1>

@@ -5,7 +5,7 @@ const Header = () => {
     <div id="head">
       <div>
         <img
-          src={require("./utilities/5506162-photoaidcom-cropped.jpg")}
+          src={require("../../utilities/5506162-photoaidcom-cropped.jpg")}
           alt="logo"
         />
         <h1>ZOMATO</h1>
