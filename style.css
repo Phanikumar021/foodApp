@@ -32,17 +32,42 @@
 #body {
   margin-top: 1.5%;
 }
+#top-body {
+  display: flex;
+  justify-content: space-between;
+}
+#top-rated {
+  margin-left: 5%;
+}
+#top-rated > button {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: rgb(249, 202, 121);
+  color: white;
+  border-color: rgb(249, 202, 121);
+  width: 6rem;
+  cursor: pointer;
+  transition: 200ms;
+}
+#top-rated > button:hover {
+  box-shadow: 3px 4px #7978789c;
+  font-weight: 700;
+}
 #search {
   display: flex;
   justify-content: end;
   margin-right: 2%;
+  width: 40%;
 }
 #find {
   border-radius: 15px;
   margin-right: 4px;
-  margin-left: 4px;
-  width: 30%;
+  width: 50%;
   height: 35px;
+  transition: 200ms;
+}
+#find:hover {
+  width: 80%;
 }
 #btn {
   margin-top: 2px;

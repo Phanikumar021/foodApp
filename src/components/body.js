@@ -1,21 +1,38 @@
 import resdata from "../../utilities/data";
 import { CDN_URL } from "../../utilities/constants ";
+import { useState } from "react";
+
 const Body = () => {
+  const [restlist, setrestlist] = useState(resdata);
   return (
     <div id="body">
-      <div id="search">
-        <input type="search" name="" id="find" placeholder="   search ..." />
-        <input type="submit" value="search" id="btn" />
+      <div id="top-body">
+        <div id="top-rated">
+          <button
+            onClick={() => {
+              const filteredlist = resdata.filter((val) => {
+                return val.info.avgRating > 4;
+              });
+              setrestlist(filteredlist);
+            }}
+          >
+            Top rated
+          </button>
+        </div>
+        <div id="search">
+          <input type="search" name="" id="find" placeholder="   search ..." />
+          <input type="submit" value="search" id="btn" />
+        </div>
       </div>
-      <Cardbody />
+      <Cardbody restaurantdata={restlist} />
     </div>
   );
 };
 
-const Cardbody = () => {
+const Cardbody = (props) => {
   return (
     <div id="catalog">
-      {resdata.map((restaurant) => {
+      {props.restaurantdata.map((restaurant) => {
         return <Card key={restaurant.info.id} restaurantdata={restaurant} />;
       })}
     </div>
